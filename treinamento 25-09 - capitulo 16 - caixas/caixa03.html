@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin Tags cx 03(sombras)</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(135, 206, 250, 0.61);
+        margin: 0px;
+        }
+header{
+    border-radius: 10px;
+       background-color: rgba(0, 0, 255, 0.411);
+       padding: 10px;
+       margin: 10px;
+}
+main{
+    border-radius: 20px 0px;
+    box-shadow: -1px 8px 10px 10px rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 255, 0.411) ;
+    padding: 10px;
+    margin: 10px;
+}
+#assuntos{
+    text-align: center;
+    font-weight: bolder;
+    background-color: bisque;
+ 
+
+}
+h1{ 
+    text-align: center;
+    font-weight: 900;
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px 10px;
+    box-shadow: -15px 13px 11px 3px rgba(0, 0, 0, 0.473);
+}
+a{
+    color: brown;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 4px;
+    margin: 20px 0px;  }
+
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: blue;
+        border-radius: 50%;
+        }
+
+article{
+    background-color: bisque;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(199, 180, 156);
+    font-size: small;
+    text-align: right;
+    width: 200px;
+    height: 20px;
+    margin-left: 400px;
+}
+article > h2 {
+    text-align: center;
+}
+nav > a {
+    margin-right: 15px;    
+    text-decoration: none;
+        color: black;
+        box-shadow: -6px 3px 5px 3px rgba(255, 255, 255, 0.781); /*outset (lado de fora) - inset (lado de dentro)*/
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+</style>   
+</head>
+<body>
+<header> <!-- cabeçalho (é div)-->
+<h1>MEU SITE</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    </nav>
+</header>
+<main> <!--conteúdo principal (também é div)-->
+<section id="assuntos">
+    <p>ESPORTES POLÍTICA E TECNOLOGIA</p>
+</section>
+<section id="notícias">
+    <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat molestias dicta libero quae eius magni distinctio, voluptas, consequuntur voluptates nostrum quis voluptatum voluptatem inventore a impedit quas sed illum. Ipsam.</p>
+        <aside>
+            <p>Artigo escrito por José da Silva</p>
+        </aside>
+    </article>
+    <article>
+
+    </article>
+
+    </section>
+</main>
+<footer> <!--rodapé-->
+<p style="text-align: center">Desenvolvido em treinamento</p>
+
+</footer>
+<div id="bola"></div>
+</body>
+</html>

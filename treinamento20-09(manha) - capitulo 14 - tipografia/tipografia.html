@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTES EM CSS - cap.14</title>
+    <style>
+            body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 1em;
+font-weight: normal;
+font-style:italic;
+/*
+- nem todas as fontes reconhecem
+- weight(peso) , width(largura), height(altura)*/
+
+}
+h1 {
+    text-decoration: underline;
+}
+h2{
+/*shorthand font (coloca a declaração font e só os parâmetros de cada
+a ordem precisa ser
+- font-style->font-weight->font-size->font-family */
+font: italic bolder 1.5em 'Lucida Sans'
+}
+
+/* 1em = 16px (o normal) - melhor "em"
+- Medidas absolutas: 
+cm, mm, in(polegadas), px, pt, pc (paica).
+- Medidas relativas: 
+em (relativa ao "M" da fonte);
+ex (relativa ao "x" minúsculo da fonte);
+rem;
+vw (relativa a largura da viporte (tela));
+vh(relativa a altura da viporte (tela));
+%(relativa a porcentagem da viporte (tela)); 
+etc...
+- usar px ou em.
+- pode colocar genérica tipo:
+font-family: serife (serifada)
+font-family: sans-serife (sem serifa)
+- colocar mais de uma fonte para combinar com uma fonte que tenha no dispositivo
+- procurar as combinações no site css web safe combinatiom (w3schools) */ 
+</style>
+</head>
+<body style="background-color: rgb(188, 235, 220);">
+    <h1 style="text-align: center;
+    background-color: aquamarine; color: rgb(5, 92, 92); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; font-size: 60px">Trabalhando com fontes ex 016, 017</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum obcaecati eum libero nisi incidunt accusantium explicabo alias sequi nemo, numquam est dolores recusandae, dicta odit ipsam dignissimos ea. Reiciendis, quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quod vitae asperiores aliquid laudantium nemo totam praesentium provident delectus, reiciendis ut voluptatum dolorum facilis quidem nesciunt veritatis fuga adipisci alias.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aliquam repellat molestias nobis, eum mollitia, ipsa dolores ullam necessitatibus odio illo quo. Mollitia non dicta quod dolor alias repellat earum!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ullam non. Aliquam alias sapiente repellendus ut harum. Eligendi, saepe? Pariatur sunt deserunt earum voluptate delectus ut beatae amet fuga expedita. </p>
+</body>
+</html>

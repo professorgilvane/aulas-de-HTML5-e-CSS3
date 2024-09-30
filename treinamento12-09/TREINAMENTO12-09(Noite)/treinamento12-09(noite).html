@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <!--continuação de 12-09(manhã)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Trabalhando com listas</title> 
+    <style>
+        h1{color: rgb(182, 15, 15);}
+        h2{color: rgb(95, 4, 180);}
+        mark {
+       }
+   </style>
+</head>
+<body>
+    <style>
+        div.a {text-align:center;
+        }
+        body {
+            background-color:rgb(29, 136, 34);
+                       }
+   </style> 
+    <p> 
+    <div class="a"> 
+    <h1>Trabalhando com listas</h1>
+    </p>
+    </div> 
+        <div class="a"><h2>Listas ordenadas</h2> </div>
+           <ol>        <!--listas ordenadas que já vem organizadas, se precisar inserir item, ja organiza.-->
+            <li>acordar;
+            <li>ligar;</li>   
+            <li>escovar dentes;
+            <li>tomar café;
+            <li>cuidar bichos.
+                <ol start=8>   
+                    <!--listas ordenadas tipo com número, (não precisa escrever o número 1) iniciando em 8.-->     
+                    <li>acordar;
+                    <li>ligar;</li>   
+                    <li>escovar dentes;
+                    <li>tomar café;
+                    <li>cuidar bichos.
+           </ol> 
+            <ol type="A">   
+                <!--listas ordenadas tipo com LETRA MAIÚSCULA.-->     
+                <li>acordar;
+                <li>ligar;</li>   
+                <li>escovar dentes;
+                <li>tomar café;
+                <li>cuidar bichos.
+                </ol> 
+            <ol type="A" start="4">   
+                <!--listas ordenadas tipo com LETRA MAIÚSCULA, iniciando em E (precisa colocar em número - é um parâmetro numérico).-->     
+                <li>acordar;
+                <li>ligar;</li>   
+                <li>escovar dentes;
+                <li>tomar café;
+                <li>cuidar bichos.
+                </ol> 
+                <ol type="i">   
+                    <!--listas ordenadas tipo com romanos minúsculos. - Verificar os tipos.-->     
+                    <li>acordar;
+                    <li>ligar;</li>   
+                    <li>escovar dentes;
+                    <li>tomar café;
+                    <li>cuidar bichos.
+                    </ol> 
+       
+<div class="a"><h2>LISTAS NÃO ORDENADAS</h2></div>
+    <ul type="circle"> <!--TIPOS: circle(padão), disc e square-->
+    <li>comprar pão;
+    <li>comprar leite;
+    <li>comprar manteiga;
+    <li>comprar tomate;
+    <li>comprar alface;
+    </ul>
+    <!--Segundo video do capítulo 09 (ex009)-->
+<div class="a"><h2>MINHAS LINGUAGENS FAVORITAS</h2></div>
+    <ol>
+    <li>Antigas:
+    <ol type="a" >
+        <li>Clipper;</li>
+        <li>Visual Basic;</li>
+        <li>Fortran;</li>
+        <li>Delphi;</li>
+    </ol>
+    <li>Novas:
+        <ol type="a" start="5" >
+            <li>PHP;</li>
+            <li>Python;</li>
+            <li>JavaScript;</li>
+            <li>Kotlin;</li>
+        </ol>
+    </ol>
+<div class="a"><h2>MEUS JOGOS FAVORITOS</h2></div>
+    <ol>
+        <li>Nintendo(NES):</li>
+            <ul type="square--" >
+                <li>Mario Bros;</li>
+                <ul type="circle" >
+                    <li>Mario Bros 3;</li>
+                    <li>Mario Bros Lost level;</li>
+                </ul>
+                <li>Ninja Gaiden;</li>
+            </ul>
+        <li>Super Nintendo(SNE):</li>
+            <ul type="square--">
+                <li>Mario;</li>
+                <li>Donkey Kong;</li>
+            </ul>
+        <li>PlayStation:</li>
+        <!--segura alt e clica em mais de um item para digitar em mais de um lugar-->
+            <ul type="square--">
+                <li>Final Fantasy;</li>
+                <li>Castlevania.</li>
+        </ul>
+    </ol>
+<div class="a"><h2>LISTA DE DEFINIÇÕES</h2></div>  
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>Linguagem de marcação para a criação de um site.</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt><b>JavaScript</b></dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <!--Fim do capítulo 09-->
+</body>
+</html>

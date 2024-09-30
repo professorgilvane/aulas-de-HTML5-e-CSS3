@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+h1{  /*box-level pode transformar em inline*/
+    /*display: inline; (não dá para definir altura e largura - height e width)*/
+    background-color: lightcyan;
+    height: 40px;  /*size da caixa*/
+    width: 390px;  /*size da caixa*/
+    
+    border: 10px solid darkolivegreen;
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: darkolivegreen; */
+
+   /*margin: auto;*/ /*centralizar caixa*/
+   
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+    /*padding: 10px 10px 10px 10px; só precisa colocar um valor, ou se tiver 2 diferentes, pode colocar só os 2*/
+    padding: 10px;
+
+
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px; pode inserir auto entre, para automatizar (tem que colocar os dois)*/
+    margin: 20px auto 40px auto;
+
+    /*outline-width: 5px;
+    outline-style: dashed; /*traçejado*/
+   /* outline-color: salmon; */
+    outline: 5px dashed salmon;
+    }
+a{ /*inline-level* tmbém pode transformar em bloco*/
+   /* display: block;*/
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    Usar shorthands
+      Ordem: width, style, color*/
+      border: 10px solid red;
+
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 10px 10px 10px 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1> <!--ocupa a linha toda-->
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de inline-level</a>. Vamos ver como tudo funciona.</p>
+</body>
+</html>
