@@ -52,6 +52,9 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw /* 3.5% da view largura ou pode colocar 2em*/;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -59,11 +62,25 @@ section.normal{
 section.imagem{
     background-color: rgb(105, 102, 102);
     color: whitesmoke;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed; /*efeito paralax*/
 }
 section.imagem > p {
     display: inline-block; /*width: 400px;*/
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.308);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+    background-position: right center;
+    /*background-size: cover; pode colocar só no genérico, não precisa estar nos dois*/
+}
+section#img02{
+    background-image: url('../pacote-d012/imagens/background002.jpg');
+    background-position: right center;
+    
 }
 footer{
     background-color: black;
