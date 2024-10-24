@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @font-face {
+    font-family: 'Fredericka the Great';
+    src: url("../fontes/FrederickatheGreat-Regular.ttf") format('truetype');}
+@font-face {
     font-family: 'Passion One';
     src: url("../fontes/Passion_One/PassionOne-Regular.ttf") format('truetype');}
 
@@ -11,6 +14,7 @@
             --fonte1: Verdana, Geneva, Tahoma, sans-serif;
             --fonte2: 'Passion One';
             --fonte3: 'Sriracha';
+            --fonte4: 'Fredericka the Great';
         }
 * {  /*configurações gerais*/
     margin: 0px;
@@ -32,8 +36,9 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps; /*VERSALETE*/
     /*text-transform: uppercase; /*maiúsculas*/
-    font-family: var(--fonte2);
+    font-family: var(--fonte4);
     font-size: 10vw /*10% da largura ou 4em*/;
+    color: blanchedalmond;
 }
 header > p { padding-bottom: 50px; }
 a{
